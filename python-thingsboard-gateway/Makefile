@@ -15,7 +15,7 @@ PKG_CPE_ID:=cpe:/a:palletsproject:thingsboard-gateway
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/thingsboard/thingsboard-gateway/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=d06622e1d7e598fa32ce65636cc0d00badefe48140a282efb13f68fbec2db3ac
+PKG_HASH:=e66351919e85b3d7ffb30c7abff9e5c05f0005c7d5f0e4fb586adef64d09bef2
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(BUILD_VARIANT)-$(PKG_NAME)-$(PKG_VERSION)
 
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
