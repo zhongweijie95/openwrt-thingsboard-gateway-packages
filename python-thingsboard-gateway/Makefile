@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=thingsboard-gateway
-PKG_VERSION:=2.5.5.2
+PKG_VERSION:=2.6
 PKG_RELEASE:=2
 PKG_LICENSE:=MIT
 PKG_CPE_ID:=cpe:/a:palletsproject:thingsboard-gateway
