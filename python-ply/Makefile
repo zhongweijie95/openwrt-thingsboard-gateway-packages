@@ -12,6 +12,7 @@ PKG_VERSION:=3.11
 PKG_RELEASE:=2
 PKG_LICENSE:=MIT
 PKG_CPE_ID:=cpe:/a:palletsproject:ply
+PKG_MAINTAINER:=weijie-zhong <zhongweijie95@vip.qq.com>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://files.pythonhosted.org/packages/source/p/ply
