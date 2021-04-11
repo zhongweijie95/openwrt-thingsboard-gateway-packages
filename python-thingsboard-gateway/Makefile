@@ -12,6 +12,7 @@ PKG_VERSION:=2.6
 PKG_RELEASE:=2
 PKG_LICENSE:=MIT
 PKG_CPE_ID:=cpe:/a:palletsproject:thingsboard-gateway
+PKG_MAINTAINER:=weijie-zhong <zhongweijie95@vip.qq.com>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/thingsboard/thingsboard-gateway/tar.gz/$(PKG_VERSION)?
