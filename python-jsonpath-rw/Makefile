@@ -12,6 +12,7 @@ PKG_VERSION:=1.4.0
 PKG_RELEASE:=2
 PKG_LICENSE:=MIT
 PKG_CPE_ID:=cpe:/a:palletsproject:jsonpath-rw
+PKG_MAINTAINER:=weijie-zhong <zhongweijie95@vip.qq.com>
 
 PKG_SOURCE:=python-$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/kennknowles/python-jsonpath-rw/tar.gz/$(PKG_VERSION)?
