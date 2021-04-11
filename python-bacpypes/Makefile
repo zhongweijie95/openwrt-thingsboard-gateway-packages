@@ -12,6 +12,7 @@ PKG_VERSION:=0.18.1
 PKG_RELEASE:=2
 PKG_LICENSE:=MIT
 PKG_CPE_ID:=cpe:/a:palletsproject:bacpypes
+PKG_MAINTAINER:=weijie-zhong <zhongweijie95@vip.qq.com>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/JoelBender/bacpypes/tar.gz/$(PKG_VERSION)?
