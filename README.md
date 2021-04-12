@@ -19,7 +19,7 @@ Update the feed:
 Activate the package:
 
 
-    ./scripts/feeds install -a -p thingsboard-gateway
+    ./scripts/feeds install -a -p thingsboard_gateway
 
 
 The thingsboard-gateway packages should now appear in menuconfig.
