@@ -7,19 +7,19 @@ To use these packages, add the following line to the feeds.conf in the OpenWrt b
 
 
 
-    src-git thingsboard-gateway git://github.com/zhongweijie95/thingsboard-gateway/tree/2.5.5.2
+    src-git thingsboard_gateway git://github.com/zhongweijie95/thingsboard-gateway/tree/2.5.5.2
 
 
 Update the feed:
 
 
-    ./scripts/feeds update thingsboard-gateway 
+    ./scripts/feeds update thingsboard_gateway 
 
 
 Activate the package:
 
 
-    ./scripts/feeds install -a -p thingsboard-gateway
+    ./scripts/feeds install -a -p thingsboard_gateway
 
 
 The thingsboard-gateway packages should now appear in menuconfig.
