@@ -1,5 +1,5 @@
 # OpenWrt package feed for thingsboard-gateway
-thingsboard-gateway for openwrt19.07.
+thingsboard-gateway for openwrt19.07 or openwrt21.02.
 
 This is an OpenWrt package feed containing community maintained python packages.
 
