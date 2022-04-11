@@ -20,44 +20,23 @@ PKG_HASH:=d55f0f92870e4717b54b3c5679482affe5a00ca3b6ad1b29d16e5c56cc3fda94
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(BUILD_VARIANT)-$(PKG_NAME)-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/python/python-package.mk
 include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
 
 PKG_UNPACK:=$(HOST_TAR) -C $(PKG_BUILD_DIR) --strip-components=1 -xzf $(DL_DIR)/$(PKG_SOURCE)
 
-define Package/python-$(PKG_NAME)/Default
+define Package/python3-$(PKG_NAME)
   SECTION:=lang
   CATEGORY:=Languages
   SUBMENU:=Python
   TITLE:=BACpypes
   URL:=https://github.com/JoelBender/bacpypes
-endef
-
-define Package/python-$(PKG_NAME)
-$(call Package/python-$(PKG_NAME)/Default)
-  DEPENDS:=+python
-  VARIANT:=python
-endef
-
-define Package/python3-$(PKG_NAME)
-$(call Package/python-$(PKG_NAME)/Default)
   DEPENDS:=+python3
   VARIANT:=python3
 endef
 
-define Package/python-$(PKG_NAME)/description
+define Package/python3-$(PKG_NAME)/description
   BACpypes provides a BACnet application layer and network layer written in Python for daemons, scripting, and graphical interfaces.
 endef
-
-define Package/python3-$(PKG_NAME)/description
-$(call Package/python-$(PKG_NAME)/description)
-.
-(Variant for Python3)
-endef
-
-$(eval $(call PyPackage,python-$(PKG_NAME)))
-$(eval $(call BuildPackage,python-$(PKG_NAME)))
-$(eval $(call BuildPackage,python-$(PKG_NAME)-src))
 
 $(eval $(call Py3Package,python3-$(PKG_NAME)))
 $(eval $(call BuildPackage,python3-$(PKG_NAME)))
