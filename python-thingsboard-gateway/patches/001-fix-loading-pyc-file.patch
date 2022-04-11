@@ -1,7 +1,7 @@
-Index: python3-thingsboard-gateway-2.5.5.2/thingsboard_gateway/tb_utility/tb_utility.py
+Index: python3-thingsboard-gateway-2.6/thingsboard_gateway/tb_utility/tb_utility.py
 ===================================================================
---- python3-thingsboard-gateway-2.5.5.2.orig/thingsboard_gateway/tb_utility/tb_utility.py
-+++ python3-thingsboard-gateway-2.5.5.2/thingsboard_gateway/tb_utility/tb_utility.py
+--- python3-thingsboard-gateway-2.6.orig/thingsboard_gateway/tb_utility/tb_utility.py
++++ python3-thingsboard-gateway-2.6/thingsboard_gateway/tb_utility/tb_utility.py
 @@ -90,7 +90,7 @@ class TBUtility:
                          return TBUtility.loaded_extensions[extension_type + module_name]
                      if path.exists(extension_path):
