@@ -7,7 +7,7 @@ To use these packages, add the following line to the feeds.conf in the OpenWrt b
 
 
 
-    src-git thingsboard_gateway git://github.com/zhongweijie95/thingsboard-gateway
+    src-git thingsboard_gateway git://github.com/zhongweijie95/openwrt-thingsboard-gateway-packages
 
 
 Update the feed:
